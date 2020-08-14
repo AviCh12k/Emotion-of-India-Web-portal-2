@@ -54,7 +54,7 @@ $(".dropdown-item").on("click",(event)=>{
         $(".intro").text("Our surroundings have a very huge impact on our lives. Nature heals but we harm. The lockdown though has helped nature heal. Pollution levels have reduced significantly leading to clearer night sky. Stars are visible again, birds are chirping and everything now looks beautiful again. The sunburst given depicts the results of what people feel about nature's healing.");}
     else if(aspect_name=="Lockdown")
         {data[0].values = val2;
-          $(".intro").text("Lockdown has impacted our lives in many ways. For some it has had a positive impact while for some it has shattered their hopes and dreams. The given sunburst depicts the same.");
+          $(".intro").text("Lockdown has impacted our lives in many ways. For some it has had a positive impact while for some it has shattered their hopes and dreams. With the sudden announcement of lockdown there was a situation of anxiety all around India. While some people got more creative and observed their hidden talent while others were facing a situation of complete distress and trauma.The given sunburst depicts the same.");
         }
     else if(aspect_name=="Education")
         {data[0].values = val3;

@@ -42,6 +42,17 @@ body{
     margin: 0 auto;
     padding: 20px;
 }
+.footer .heading{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.footer .heading h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* font-style: italic; */
+    background-color: transparent;
+}
 .small-heading{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
