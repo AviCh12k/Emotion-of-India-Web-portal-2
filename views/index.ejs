@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+</head>
+<body>
+    <h1 class="heading jumbotron">Aspect Based Emotion Analysis on COVID-19</h1>
+    <div class="conatiner"></div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="btn-group">
+                <button type="button" class="btn btn-dark dropdown-toggle aspect-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select Aspect Category    
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Nature</a>
+                  <a class="dropdown-item" href="#">Lockdown</a>
+                  <a class="dropdown-item" href="#">Politics</a>
+                  <a class="dropdown-item" href="#">Education</a>
+                  <a class="dropdown-item" href="#">Market</a>
+                  <a class="dropdown-item" href="#">Health</a>    
+                </div>
+            </div>
+            <div class="container">
+            <div class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsa numquam temporibus, incidunt repellat illo, minima vitae asperiores, sit inventore ad cumque totam? Quo rerum, cupiditate autem commodi quasi facilis?</div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <h2 class="aspect-heading"></h2>
+            <div class="plot">
+                <div id='myDiv' class="col-md-6"></div>
+                <img src="" class="col-md-6 img-plot" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="seperator"></div>
+    <div class="tweet_container d-flex justify-content-around">
+        <div>
+            <h3 class="small-heading">Tweets Related To Coronavirus In Last 24-Hrs</h3>
+            <div class="tweets_24 jumbotron">
+                <ul><%- demo_24 %></ul>
+            </div>
+        </div>
+        <div>
+            <h3 class="small-heading">Realtime Tweets Related To Coronavirus</h3>
+            <div class="tweets jumbotron">
+                <ul><%- demo %></ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="seperator"></div>
+    <div class="jumbotron footer">
+        <h1 class="heading">Meet The Team</h1>
+        <div class="container">
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Adarsh Kumar</h5>
+                      <p class="card-text">Adarsh is a student of Bachelor of Technology at Bharati Vidyapeeth's College of Engineering, New Delhi. He had been working in the area of Machine Learning and Deep Learning based projects. His main areas of interest are Web Development, Machine learning, Deep learning, Data analytics and Image processing.</p>
+                      <p class="card-text"><small class="text-muted">Email : adarsh12k@gmail.com</small></p>
+                      <p class="card-text"><small class="text-muted">LinkedIn : https://www.linkedin.com/in/adarsh-kumar-5b1a1719b</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="/images/Rohan.png" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Rohan Arora</h5>
+                      <p class="card-text">Rohan is a student of Bachelor of Technology at Bharati Vidyapeeth's College of Engineering, New Delhi. He had been working in the area of software development, Machine Learning and Computer Vision based projects. His main areas of interest are Machine learning, Deep learning, Data analytics and Image processing.</p>
+                      <p class="card-text"><small class="text-muted">Email : rohanaroraaashi@gmail.com</small></p>
+                      <p class="card-text"><small class="text-muted">LinkedIn : https://www.linkedin.com/in/rohanarora18/</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Shreya Dhingra</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Email : shreyadhingra54@gmail.com</small></p>
+                      <p class="card-text"><small class="text-muted">LinkedIn : </small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="/images/Piyush_Katariya.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Piyush Katariya</h5>
+                      <p class="card-text">Piyush Katariya is a student of Bachelor of Technology at Bharati Vidyapeeth's College of Engineering, New Delhi. He had been working in the area of software development,  Machine Learning and Computer Vision based projects. His main areas of interests is in Data analytics, Image processing, Web developement, Machine learning and Deep learning.</p>
+                      <p class="card-text"><small class="text-muted">Email : piyushkatariya95@gmail.com</small></p>
+                      <p class="card-text"><small class="text-muted">LinkedIn : https://www.linkedin.com/in/piyush-katariya-197332180/</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/main.js"></script>
+</html> 
