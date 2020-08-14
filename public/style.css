@@ -28,7 +28,7 @@ body{
     display: flex;
 }
 .tweet_container{
-    height: 40vh;
+    height: 70vh;
     width: 100vw;
     overflow:hidden;
     display: flex;
@@ -36,7 +36,7 @@ body{
     margin-bottom: 20px;
 }
 .tweets,.tweets_24 {
-    height: 40vh;
+    height: 60vh;
     overflow-y: scroll;
     width: 45vw;
     margin: 0 auto;

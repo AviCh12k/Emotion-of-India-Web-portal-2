@@ -70,7 +70,7 @@ $(".dropdown-item").on("click",(event)=>{
         }
     else if(aspect_name=="Market")
         {data[0].values = val6;
-          $(".intro").text("");
+          $(".intro").text("A market is one of a composition of systems, institutions, procedures, social relations or infrastructures whereby parties engage in exchange. Indian economy was impacted on a large scale by COVID-19. There was a condition of crisis everywhere. Businesses shutdown, people lost their livelihood as well as their only source of income. The sunburst charts depicts the same.");
         }
     console.log(data[0].values);
 
