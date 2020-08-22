@@ -83,5 +83,5 @@ $(".dropdown-item").on("click",(event)=>{
       
       Plotly.newPlot('myDiv', data, layout);
         
-      $(".img-plot").attr("src","/images/" + aspect_name + ".jpg");
+      // $(".img-plot").attr("src","/images/" + aspect_name + ".jpg");
 })
